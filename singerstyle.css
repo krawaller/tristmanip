@@ -1,0 +1,14 @@
+ #news-header ~ i + p {
+ 	margin-left: 2.5em;
+ }
+
+ #news-header ~ i {
+ 	position: absolute;
+ 	color: #7a684b;
+ 	font-size: 0.8em;
+ 	display: inline-block;
+ 	text-align: right;
+ 	width: 5em;
+ 	line-height: 1.5em;
+ 	margin-left: -3em;
+ }

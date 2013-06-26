@@ -1,0 +1,17 @@
+<script src="tabletop.js"></script>
+<script>
+
+	function init() {
+		console.log("MOO");
+		Tabletop.init({
+			simpleSheet: true,
+			url: "https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AtXFhtKoQjGsdDJmbmJxSGJnU2Z2SkhmejE4REhYV2c&output=html",
+			callback: function(data,err){
+				console.log("WEE",err,data);
+			}
+		});
+	}
+
+	init();
+
+</script>
